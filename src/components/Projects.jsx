@@ -1,5 +1,8 @@
 import { Box, Stack, Flex, Wrap, Heading, Button, Image, useMediaQuery, Link, chakra } from '@chakra-ui/react'
 import React from 'react'
+import travel from "../images/travel-journal-screenshot.png"
+import flag from "../images/what-the-flag-screenshot.png"
+import password from "../images/password-generator-screenshot.png"
 
 
 export default function Projects() {
@@ -38,7 +41,7 @@ export default function Projects() {
                         h={64}
                         fit="cover"
                         align="top"
-                        src="images/travel-journal-screenshot.png"
+                        src={travel}
                         alt="Article"
                         shadow="md"
                     />
@@ -136,7 +139,7 @@ export default function Projects() {
                         h={64}
                         fit="cover"
                         align="top"
-                        src="images/what-the-flag-screenshot.png"
+                        src={flag}
                         alt="Article"
                         shadow="md"
                     />
@@ -233,7 +236,7 @@ export default function Projects() {
                         w="full"
                         h={64}
                         fit="cover"
-                        src="images/password-generator-screenshot.png"
+                        src={password}
                         alt="Article"
                         shadow="md"
                     />

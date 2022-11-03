@@ -1,8 +1,10 @@
 import React from 'react'
 import { useRef } from 'react';
-import { Stack, Circle, Flex, Box, Text, useMediaQuery, Image, useColorMode, Button } from '@chakra-ui/react';
+import { Stack, Flex, Box, Text, useMediaQuery, Image, useColorMode, Button } from '@chakra-ui/react';
 import { chakra, shouldForwardProp } from '@chakra-ui/react';
 import { motion, isValidMotionProp } from 'framer-motion';
+import circle from "../images/circleBG.jpg"
+import circlemobile from "../images/circleBG-small.jpg"
 
 const ChakraBox = chakra(motion.div, {
     shouldForwardProp: (prop) => isValidMotionProp(prop) || shouldForwardProp(prop),
@@ -39,7 +41,7 @@ export default function Home() {
                         repeatType: "loop",
                     }}
                     position="absolute"
-                    bgImage={isLargerThan600 ? "url('images/circleBG.jpg')" : "url('images/circleBG-small.jpg')"}
+                    bgImage={isLargerThan600 ? circle : circlemobile}
                     bgPosition="center"
                     bgRepeat="no-repeat"
                     w="300px"
