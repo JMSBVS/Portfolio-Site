@@ -38,7 +38,7 @@ export default function Projects() {
                         h={64}
                         fit="cover"
                         align="top"
-                        src="src/images/travel-journal-screenshot.png"
+                        src="images/travel-journal-screenshot.png"
                         alt="Article"
                         shadow="md"
                     />
@@ -136,7 +136,7 @@ export default function Projects() {
                         h={64}
                         fit="cover"
                         align="top"
-                        src="src/images/what-the-flag-screenshot.png"
+                        src="images/what-the-flag-screenshot.png"
                         alt="Article"
                         shadow="md"
                     />
@@ -233,7 +233,7 @@ export default function Projects() {
                         w="full"
                         h={64}
                         fit="cover"
-                        src="src/images/password-generator-screenshot.png"
+                        src="images/password-generator-screenshot.png"
                         alt="Article"
                         shadow="md"
                     />

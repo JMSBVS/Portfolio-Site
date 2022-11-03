@@ -39,7 +39,7 @@ export default function Home() {
                         repeatType: "loop",
                     }}
                     position="absolute"
-                    bgImage={isLargerThan600 ? "url('src/images/circleBG.jpg')" : "url('src/images/circleBG-small.jpg')"}
+                    bgImage={isLargerThan600 ? "url('images/circleBG.jpg')" : "url('images/circleBG-small.jpg')"}
                     bgPosition="center"
                     bgRepeat="no-repeat"
                     w="300px"
