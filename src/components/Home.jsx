@@ -5,6 +5,7 @@ import { chakra, shouldForwardProp } from '@chakra-ui/react';
 import { motion, isValidMotionProp } from 'framer-motion';
 import circle from "../images/circleBG.jpg"
 import circlemobile from "../images/circleBG-small.jpg"
+import portrait from "../images/self.png"
 
 const ChakraBox = chakra(motion.div, {
     shouldForwardProp: (prop) => isValidMotionProp(prop) || shouldForwardProp(prop),
@@ -130,7 +131,7 @@ export default function Home() {
                             ml="3"
                             borderRadius='full'
                             backgroundColor="transparent" boxShadow="lg"
-                            boxSize="300px" src='https://avatars.githubusercontent.com/u/98436831?v=4'
+                            boxSize="300px" src={portrait}
                         />
                     </ChakraBox>
                 </Flex>
