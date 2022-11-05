@@ -112,7 +112,7 @@ export default function Projects() {
                             </Wrap>
                             <Flex justify="space-evenly" p={3}>
                                 <Button mt={8} colorScheme="blue" boxShadow="lg" onClick={() =>
-                                    window.open("https://dynamic-froyo-4b51bd.netlify.app/")
+                                    window.open("https://courageous-donut-715ba0.netlify.app/")
                                 }>Live App</Button>
                                 <Button mt={8} colorScheme="blue" boxShadow="lg" onClick={() =>
                                     window.open("https://github.com/JMSBVS/Travel-Diary/tree/main/Pre%20Bundled/src")
