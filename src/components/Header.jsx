@@ -21,6 +21,7 @@ export default function Header() {
                 isRound='true'
                 onClick={() =>
                     window.open("https://www.linkedin.com/in/james-beavis-92244124a/")}
+                alt="Linkedin icon button"
             >
             </IconButton>
             <IconButton
@@ -29,6 +30,7 @@ export default function Header() {
                 isRound='true'
                 onClick={() =>
                     window.open("https://github.com/JMSBVS")}
+                alt="Github icon button"
             >
 
             </IconButton>
@@ -37,6 +39,7 @@ export default function Header() {
                 icon={isDark ? <FaSun /> : <FaMoon />}
                 isRound='true'
                 onClick={toggleColorMode}
+                alt="Dark mode / light mode icon button"
             >
             </IconButton>
         </Flex>

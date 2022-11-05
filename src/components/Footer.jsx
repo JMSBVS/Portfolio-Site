@@ -21,6 +21,7 @@ export default function Footer() {
                     isRound='true'
                     onClick={() =>
                         window.open("https://www.linkedin.com/in/james-beavis-92244124a/")}
+                    alt="Linkedin icon button"
 
                 >
                 </IconButton>
@@ -30,6 +31,7 @@ export default function Footer() {
                     isRound='true'
                     onClick={() =>
                         window.open("https://github.com/JMSBVS")}
+                    alt="Github icon button"
                 >
 
                 </IconButton>

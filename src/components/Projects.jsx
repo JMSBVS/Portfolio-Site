@@ -42,7 +42,7 @@ export default function Projects() {
                         fit="cover"
                         align="top"
                         src={travel}
-                        alt="Article"
+                        alt="Screenshot of travel journal project"
                         shadow="md"
                     />
 
@@ -140,7 +140,7 @@ export default function Projects() {
                         fit="cover"
                         align="top"
                         src={flag}
-                        alt="Article"
+                        alt="Screenshot of travel flag game project"
                         shadow="md"
                     />
 
@@ -237,7 +237,7 @@ export default function Projects() {
                         h={64}
                         fit="cover"
                         src={password}
-                        alt="Article"
+                        alt="Screenshot of travel password generator project"
                         shadow="md"
                     />
 
