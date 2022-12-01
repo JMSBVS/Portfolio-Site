@@ -22,6 +22,7 @@ export default function Footer() {
                     onClick={() =>
                         window.open("https://www.linkedin.com/in/james-beavis-92244124a/")}
                     alt="Linkedin icon button"
+                    aria-label="Linkedin icon button"
 
                 >
                 </IconButton>
@@ -32,6 +33,7 @@ export default function Footer() {
                     onClick={() =>
                         window.open("https://github.com/JMSBVS")}
                     alt="Github icon button"
+                    aria-label="Github icon button"
                 >
 
                 </IconButton>

@@ -76,7 +76,7 @@ export default function Projects() {
                                 <Box
                                     bg="blue.500"
                                     color='white'
-                                    _dark={{ bg: "white", color: "blue.500" }}
+                                    _dark={{ bg: "white", color: "blue.800" }}
                                     p={2}
                                     borderRadius={20}
                                     fontWeight="bold"
@@ -88,7 +88,7 @@ export default function Projects() {
                                 <Box
                                     bg="blue.500"
                                     color='white'
-                                    _dark={{ bg: "white", color: "blue.500" }}
+                                    _dark={{ bg: "white", color: "blue.800" }}
                                     p={2}
                                     borderRadius={20}
                                     fontWeight="bold"
@@ -100,7 +100,7 @@ export default function Projects() {
                                 <Box
                                     bg="blue.500"
                                     color='white'
-                                    _dark={{ bg: "white", color: "blue.500" }}
+                                    _dark={{ bg: "white", color: "blue.800" }}
                                     p={2}
                                     borderRadius={20}
                                     fontWeight="bold"
@@ -174,7 +174,7 @@ export default function Projects() {
                                 <Box
                                     bg="blue.500"
                                     color='white'
-                                    _dark={{ bg: "white", color: "blue.500" }}
+                                    _dark={{ bg: "white", color: "blue.800" }}
                                     p={2}
                                     borderRadius={20}
                                     fontWeight="bold"
@@ -186,7 +186,7 @@ export default function Projects() {
                                 <Box
                                     bg="blue.500"
                                     color='white'
-                                    _dark={{ bg: "white", color: "blue.500" }}
+                                    _dark={{ bg: "white", color: "blue.800" }}
                                     p={2}
                                     borderRadius={20}
                                     fontWeight="bold"
@@ -198,7 +198,7 @@ export default function Projects() {
                                 <Box
                                     bg="blue.500"
                                     color='white'
-                                    _dark={{ bg: "white", color: "blue.500" }}
+                                    _dark={{ bg: "white", color: "blue.800" }}
                                     p={2}
                                     borderRadius={20}
                                     fontWeight="bold"
@@ -273,7 +273,7 @@ export default function Projects() {
                                 <Box
                                     bg="blue.500"
                                     color='white'
-                                    _dark={{ bg: "white", color: "blue.500" }}
+                                    _dark={{ bg: "white", color: "blue.800" }}
                                     p={2}
                                     borderRadius={20}
                                     fontWeight="bold"
@@ -285,7 +285,7 @@ export default function Projects() {
                                 <Box
                                     bg="blue.500"
                                     color='white'
-                                    _dark={{ bg: "white", color: "blue.500" }}
+                                    _dark={{ bg: "white", color: "blue.800" }}
                                     p={2}
                                     borderRadius={20}
                                     fontWeight="bold"
@@ -297,7 +297,7 @@ export default function Projects() {
                                 <Box
                                     bg="blue.500"
                                     color='white'
-                                    _dark={{ bg: "white", color: "blue.500" }}
+                                    _dark={{ bg: "white", color: "blue.800" }}
                                     p={2}
                                     borderRadius={20}
                                     fontWeight="bold"
