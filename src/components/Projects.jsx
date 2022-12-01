@@ -1,8 +1,8 @@
-import { Box, Stack, Flex, Wrap, Heading, Button, Image, useMediaQuery, Link, chakra } from '@chakra-ui/react'
+import { Box, Stack, Flex, Wrap, Heading, Button, Image, useMediaQuery, chakra } from '@chakra-ui/react'
 import React from 'react'
-import travel from "../images/travel-journal-screenshot.png"
-import flag from "../images/what-the-flag-screenshot.png"
-import password from "../images/password-generator-screenshot.png"
+import travel from "/images/travel-journal-screenshot.webp"
+import flag from "/images/what-the-flag-screenshot.webp"
+import password from "/images/password-generator-screenshot.webp"
 
 
 export default function Projects() {
@@ -49,7 +49,7 @@ export default function Projects() {
                     <Box p={6}>
                         <Box>
 
-                            <Link
+                            <Box
                                 display="block"
                                 color="gray.800"
                                 _dark={{ color: "white" }}
@@ -58,7 +58,7 @@ export default function Projects() {
                                 mt={2}
                             >
                                 Travel Journal.
-                            </Link>
+                            </Box>
                             <chakra.p
                                 mt={2}
                                 fontSize="sm"
@@ -111,10 +111,10 @@ export default function Projects() {
                                 </Box>
                             </Wrap>
                             <Flex justify="space-evenly" p={3}>
-                                <Button mt={8} colorScheme="blue" boxShadow="lg" onClick={() =>
+                                <Button alt="Open travel diary live app" mt={8} colorScheme="blue" boxShadow="lg" onClick={() =>
                                     window.open("https://courageous-donut-715ba0.netlify.app/")
                                 }>Live App</Button>
-                                <Button mt={8} colorScheme="blue" boxShadow="lg" onClick={() =>
+                                <Button alt="Open travel diary code" mt={8} colorScheme="blue" boxShadow="lg" onClick={() =>
                                     window.open("https://github.com/JMSBVS/Travel-Diary/tree/main/Pre%20Bundled/src")
                                 }>Code</Button>
                             </Flex>
@@ -147,7 +147,7 @@ export default function Projects() {
                     <Box p={6}>
                         <Box>
 
-                            <Link
+                            <Box
                                 display="block"
                                 color="gray.800"
                                 _dark={{ color: "white" }}
@@ -156,7 +156,7 @@ export default function Projects() {
                                 mt={2}
                             >
                                 What the flag.
-                            </Link>
+                            </Box>
                             <chakra.p
                                 mt={2}
                                 fontSize="sm"
@@ -209,10 +209,10 @@ export default function Projects() {
                                 </Box>
                             </Wrap>
                             <Flex justify="space-evenly" p={3}>
-                                <Button mt={8} colorScheme="blue" boxShadow="lg" onClick={() =>
+                                <Button alt="Open what the flag live app" mt={8} colorScheme="blue" boxShadow="lg" onClick={() =>
                                     window.open("https://melodious-cascaron-088d65.netlify.app/")
                                 }>Live App</Button>
-                                <Button mt={8} colorScheme="blue" boxShadow="lg" onClick={() =>
+                                <Button alt="Open what the flag code" mt={8} colorScheme="blue" boxShadow="lg" onClick={() =>
                                     window.open("https://github.com/JMSBVS/What-the-flag-")
                                 }>Code</Button>
                             </Flex>
@@ -244,7 +244,7 @@ export default function Projects() {
                     <Box p={6}>
                         <Box>
 
-                            <Link
+                            <Box
                                 display="block"
                                 color="gray.800"
                                 _dark={{ color: "white" }}
@@ -253,7 +253,7 @@ export default function Projects() {
                                 mt={2}
                             >
                                 Secure Password Generator.
-                            </Link>
+                            </Box>
                             <chakra.p
                                 mt={2}
                                 fontSize="sm"
@@ -308,10 +308,10 @@ export default function Projects() {
                                 </Box>
                             </Wrap>
                             <Flex justify="space-evenly" p={3}>
-                                <Button mt={8} colorScheme="blue" boxShadow="lg" onClick={() =>
+                                <Button alt="Open password generator live app" mt={8} colorScheme="blue" boxShadow="lg" onClick={() =>
                                     window.open("https://majestic-pixie-7072ce.netlify.app/")
                                 }>Live App</Button>
-                                <Button mt={8} colorScheme="blue" boxShadow="lg" onClick={() =>
+                                <Button alt="Open password generator code" mt={8} colorScheme="blue" boxShadow="lg" onClick={() =>
                                     window.open("https://github.com/JMSBVS/Password-Generator")
                                 }>Code</Button>
                             </Flex>

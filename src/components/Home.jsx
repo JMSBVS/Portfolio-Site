@@ -12,9 +12,9 @@ import {
 } from '@chakra-ui/react';
 import { chakra, shouldForwardProp } from '@chakra-ui/react';
 import { motion, isValidMotionProp } from 'framer-motion';
-import circle from "../images/circleBG.jpg"
-import circlemobile from "../images/circleBG-small.jpg"
-import portrait from "../images/self.png"
+import circle from "/images/circleBG.webp"
+import circlemobile from "/images/circleBG-small.webp"
+import portrait from "/images/self.webp"
 
 const ChakraBox = chakra(motion.div, {
     shouldForwardProp: (prop) => isValidMotionProp(prop) || shouldForwardProp(prop)
@@ -182,6 +182,7 @@ export default function Home() {
                             colorScheme="blue"
                             boxShadow="lg"
                             w="300px"
+                            alt="Scroll down to projects"
                             onClick={
                                 () => {
                                     scrollDown()
