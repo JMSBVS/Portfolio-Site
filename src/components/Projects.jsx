@@ -163,7 +163,7 @@ export default function Projects() {
                                 color="gray.800"
                                 _dark={{ color: "white" }}
                             >
-                                A multiple choice vexillology game; made using React hooks and styled with Chakra UI.
+                                A multiple-choice vexillology game that challenges players to identify flags from around the world. Built using React hooks for efficient state management and user interaction. Styled with Chakra UI.
                             </chakra.p>
                         </Box>
 
@@ -260,9 +260,7 @@ export default function Projects() {
                                 color="gray.800"
                                 _dark={{ color: "white" }}
                             >
-                                Generate an eight or fifteen digit secure password containing a random
-                                collection of letters numbers and symbols. You can then copy the result to the
-                                clipboard, utilising an API.
+                                Generate a secure password with eight or fifteen digits, containing a random mix of letters, numbers, and symbols. You can easily copy the result using the Clipboard API.
                             </chakra.p>
                         </Box>
 

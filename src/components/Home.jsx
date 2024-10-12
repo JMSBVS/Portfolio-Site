@@ -15,6 +15,7 @@ import { motion, isValidMotionProp } from 'framer-motion';
 import circle from "/images/circleBG.webp"
 import circlemobile from "/images/circleBG-small.webp"
 import portrait from "/images/self.webp"
+import CanvasDots from "./CanvasDots";
 
 const ChakraBox = chakra(motion.div, {
     shouldForwardProp: (prop) => isValidMotionProp(prop) || shouldForwardProp(prop)
@@ -34,15 +35,13 @@ export default function Home() {
 
     return (
         <Box>
+            <CanvasDots />
             <Stack
                 height={isLargerThan600 && !isPortrait ? "100vh" : "100%"}
 
             >
                 <ChakraBox animate={
-                    isLargerThan600 && isTallerThan600 ? {
-                        opacity: [0, 0, 0, 0, 0.5, 0.75, 1],
-                        rotate: [0, 0, 0, 0, 0, 0, 0, 15, 0]
-                    } : {
+                    {
                         opacity: [0, 0, 0, 0, 0.1, 0.15, 0.2],
                         rotate: [0, 0, 0, 0, 0, 0, 0, 15, 0]
                     }
@@ -58,7 +57,7 @@ export default function Home() {
                     }
                     position="absolute"
                     bgImage={
-                        isLargerThan600 && isTallerThan600 ? circle : circlemobile
+                        circlemobile
                     }
                     bgPosition="center"
                     bgRepeat="no-repeat"
@@ -116,7 +115,7 @@ export default function Home() {
 
                             }>
                             <Text fontSize="3xl" fontWeight="semibold">
-                                Frontend Developer
+                                Web Developer
                             </Text>
                             <Text color={
                                 isDark ? "gray.200" : "gray.500"
@@ -125,7 +124,7 @@ export default function Home() {
                             </Text>
                         </ChakraBox>
                     </Box>
-                    <ChakraBox animate={
+                    {/* <ChakraBox animate={
                         {
                             opacity: [0, 0.8, 1, 1, 1],
                             translateX: [50, 0, 0]
@@ -157,7 +156,7 @@ export default function Home() {
                             src={portrait}
                             alt="Self portrait"
                         />
-                    </ChakraBox>
+                    </ChakraBox> */}
                 </Flex>
                 <Flex justify="center">
                     <ChakraBox animate={

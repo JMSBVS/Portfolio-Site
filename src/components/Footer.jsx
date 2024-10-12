@@ -1,9 +1,12 @@
 import React from "react";
-import { Flex, Heading, IconButton, Spacer } from '@chakra-ui/react'
+import { Flex, Heading, IconButton, Spacer, useColorMode } from '@chakra-ui/react'
 import { FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa'
 
 
 export default function Footer() {
+    const { colorMode, toggleColorMode } = useColorMode();
+    const isDark = colorMode === "dark";
+    const currentYear = new Date().getFullYear();
     return (
         <Flex
             w="100%"
@@ -11,7 +14,6 @@ export default function Footer() {
             alignItems="center"
             h="100px"
             position="relative"
-            bgGradient="linear(to-b, blue.700, blue.900)"
             flexDirection="column"
         >
             <Flex>
@@ -43,9 +45,8 @@ export default function Footer() {
                 mt={2}
                 size="xs"
                 fontWeight="semibold"
-                color="white"
             >
-                © James Beavis 2022
+                © James Beavis {currentYear}
             </Heading>
         </Flex>
     )
